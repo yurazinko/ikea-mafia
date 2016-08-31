@@ -1,23 +1,53 @@
+html{
+	height: 100%;
+}
+
 body {
-	background: url('../style/images/background.jpg');
-	background-size: cover;  
+	min-height:100%;
+    background: url('../style/images/background.jpg');
+    background-size: cover;
     background-attachment: fixed;
-    background-position: left center;   
+    background-position: left center;
     background-repeat: no-repeat;
 }
 
-nav li {
-	text-transform: uppercase;
-} 
+nav {
+    opacity: 0.9;
+}
 
-#main-presentation, 
+nav li {
+    text-transform: uppercase;
+}
+
+#main-presentation,
 #slideshow {
-	margin-top: 70px;
+	position: relative;
+    margin-top: 70px;
+    opacity: 0.9;
+    border: 0 solid;
+}
+
+.main-header {
+    color: white;
+}
+
+.carousel-control {
+    width: 0;
+}
+
+span.glyphicon.glyphicon-chevron-right {
+    margin-right: 15px;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+    margin-left: 15px;
 }
 
 .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      position: relative;
-      margin: auto;
-  }
+.carousel-inner > .item > a > img {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    border: 0;
+    border-radius: 10px;
+}
