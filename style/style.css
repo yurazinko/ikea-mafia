@@ -1,0 +1,18 @@
+nav li {
+	text-transform: uppercase;
+} 
+
+.carousel {
+	position: absolute;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+#background-slide {
+	width: 100%;
+	background: url('../style/images/slideshow/1.jpg');
+}
