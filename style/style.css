@@ -1,7 +1,16 @@
+body {
+	background: url('../style/images/background.jpg');
+	background-size: cover;  
+    background-attachment: fixed;
+    background-position: left center;   
+    background-repeat: no-repeat;
+}
+
 nav li {
 	text-transform: uppercase;
 } 
 
+#main-presentation, 
 #slideshow {
 	margin-top: 70px;
 }
