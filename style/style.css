@@ -2,12 +2,8 @@ nav li {
 	text-transform: uppercase;
 } 
 
-div.carousel-caption {
-	top: 20px;
-}
-
-.carousel-indicators {
-    top: 130px;
+#slideshow {
+	margin-top: 70px;
 }
 
 .carousel-inner > .item > img,
