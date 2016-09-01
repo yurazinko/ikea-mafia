@@ -12,11 +12,16 @@ body {
 }
 
 nav {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 nav li {
     text-transform: uppercase;
+}
+
+.social {
+	width: 35px;
+	border-radius: 5px;
 }
 
 #main-presentation,
@@ -50,4 +55,17 @@ span.glyphicon.glyphicon-chevron-left {
     margin: auto;
     border: 0;
     border-radius: 10px;
+}
+
+footer nav.navbar {
+	max-height: 20px;
+}
+
+footer .navbar-nav li {
+	float: left;
+	margin: -9px;
+}
+
+footer .navbar-nav:last-child {
+	margin-right: 0;
 }
