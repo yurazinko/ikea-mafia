@@ -1,9 +1,9 @@
-html{
-	height: 100%;
+html {
+    height: 100%;
 }
 
 body {
-	min-height:100%;
+    min-height: 100%;
     background: url('../style/images/background.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -19,14 +19,18 @@ nav li {
     text-transform: uppercase;
 }
 
+.navbar {
+	min-height: 10px;
+}
+
 .social {
-	width: 35px;
-	border-radius: 5px;
+    width: 25px;
+    border-radius: 5px;
 }
 
 #main-presentation,
 #slideshow {
-	position: relative;
+    position: relative;
     margin-top: 70px;
     opacity: 0.9;
     border: 0 solid;
@@ -57,15 +61,25 @@ span.glyphicon.glyphicon-chevron-left {
     border-radius: 10px;
 }
 
-footer nav.navbar {
-	max-height: 20px;
+footer nav.navbar-fixed-bottom {
+    height: 38px;
 }
 
 footer .navbar-nav li {
-	float: left;
-	margin: -9px;
+    float: left;
+    margin: -9px;
+}
+
+footer nav.navbar-right {
+	height: 25px;
 }
 
 footer .navbar-nav:last-child {
-	margin-right: 0;
+    margin-right: 0;
+}
+
+#copyright {
+	position: absolute;
+	left: 45%;
+	bottom: 8px;
 }
