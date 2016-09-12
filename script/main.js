@@ -1,0 +1,1 @@
+document.getElementById('woocommerce-product-search-field').placeholder = 'Введіть назву товару...';
